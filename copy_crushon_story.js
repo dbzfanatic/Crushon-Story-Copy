@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy Crushon Story
 // @namespace    https://crushon.ai/
-// @version      2024-07-03
+// @version      0.1
 // @description  Copies all listed chat bubbles with formatting
 // @author       dbzfanatic
 // @match        *://crushon.ai/*
