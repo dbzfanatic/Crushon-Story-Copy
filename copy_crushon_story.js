@@ -6,8 +6,8 @@
 // @author       dbzfanatic
 // @match        *://crushon.ai/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=crushon.ai
-// @updateURL    https://github.com/dbzfanatic/Crushon-Story-Copy/copy_crushon_story.js
-// @downloadURL  https://github.com/dbzfanatic/Crushon-Story-Copy/
+// @updateURL    https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
+// @downloadURL  https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
 // @grant        GM_setClipboard
 // ==/UserScript==
 
