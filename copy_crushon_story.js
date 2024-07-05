@@ -9,6 +9,7 @@
 // @updateURL    https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
 // @downloadURL  https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
 // @grant        GM_setClipboard
+// @license      GPLv3
 // ==/UserScript==
 
 (function() {
