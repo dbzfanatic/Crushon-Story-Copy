@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Copy Crushon Story
 // @namespace    https://crushon.ai/
-// @version      0.1
+// @version      0.2
 // @description  Copies all listed chat bubbles with formatting
 // @author       dbzfanatic
 // @match        *://crushon.ai/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=crushon.ai
-// @updateURL    https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
-// @downloadURL  https://github.com/dbzfanatic/Crushon-Story-Copy/raw/main/copy_crushon_story.js
 // @grant        GM_setClipboard
 // @license      GPLv3
+// @downloadURL https://update.greasyfork.org/scripts/499796/Copy%20Crushon%20Story.user.js
+// @updateURL https://update.greasyfork.org/scripts/499796/Copy%20Crushon%20Story.meta.js
 // ==/UserScript==
 
 (function() {
@@ -323,10 +323,10 @@
     // Function to convert HTML to rich text with text formatting only
     function htmlToTelegram(html) {
         // Replace <strong> with bold formatting
-        html = html.replace(/<strong>/g, '**');
+        html = html.replace(/(<strong.*>)\b/g, '**');
         html = html.replace(/<\/strong>/g, '**');
         // Replace <em> with italic formatting
-        html = html.replace(/<em>/g, '__');
+        html = html.replace(/(<em.*>)\b/g, '__');
         html = html.replace(/<\/em>/g, '__');
         // Replace <p> with new line
         html = html.replace(/<p>/g, '\n');
